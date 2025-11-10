@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding-top: 240px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}   

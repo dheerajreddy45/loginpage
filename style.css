@@ -1,0 +1,73 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: aquamarine;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 0;
+}
+form {
+    background: grey;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 330px;
+    text-align:left;
+}
+h2 {
+    margin-bottom: 20px;
+    color: brown;
+}
+/* Labels and Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+input:focus {
+    border-color: black;
+    box-shadow: 0 0 5px #74b9ff;
+}
+button {
+    background-color: #0984e3;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: red;
+}
+/* these are the links */
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+    color: #0984e3;
+}
+/* Profile Page */
+.profile-container {
+    background: rgb(229, 59, 59);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.profile-container h2 {
+    color: blue;
+}
